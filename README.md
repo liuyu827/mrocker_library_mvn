@@ -6,13 +6,13 @@
 ####1.配置maven地址
 	repositories {
     	maven{
-        	url "https://github.com/liuyu827/mrocker_library_mvn/raw/master"
+        	url "https://github.com/liuyu827/mrocker_library_mvn/raw/master/repository"
     	}
     }
     
 ####2.依赖当前maven库
 	dependencies {
-    	compile 'com.mrocker.library:common:1.1.0'
+    	compile 'com.mrocker.library:common:1.2.2'
 	}
 	
 	
